@@ -20,5 +20,9 @@ spec:
       containers:
       - image: mahdi0188/velflix-nginx
         name: velflix-nginx
-        resources: {}
+        resources:
+          limits:
+            cpu: 150m
+          requests:
+            cpu: 100m
 status: {}

@@ -20,5 +20,9 @@ spec:
       containers:
       - image: mahdi0188/velflix-fpm:dev-18-05f05ee
         name: velflix-fpm
-        resources: {}
+        resources:
+          limits:
+            cpu: 150m
+          requests:
+            cpu: 100m
 status: {}
