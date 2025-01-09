@@ -7,7 +7,6 @@ metadata:
     app: velflix-fpm
   name: velflix-fpm
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: velflix-fpm
